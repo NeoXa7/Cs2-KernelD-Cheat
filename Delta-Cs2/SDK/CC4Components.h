@@ -29,12 +29,12 @@ public:
 		return Driver::RPM<INT>(game.Planted_C4 + Offsets::m_nBombSite);
 	}
 
-	FLOAT GetPC4ToLocalDistance()
+	Float GetPC4ToLocalDistance()
 	{
 		return (GetPlantedC4Position() - localplayer.Position).Magnitude(); // In Units;
 	}
 
-	FLOAT GetDC4ToLocalDistance()
+	Float GetDC4ToLocalDistance()
 	{
 		return (GetDroppedC4Position() - localplayer.Position).Magnitude(); // In Units;
 	}

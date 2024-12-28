@@ -103,17 +103,9 @@ public:
 		if (this->IsShotsFired > 0) this->IsFiring = true;
 		else this->IsFiring = false;
 
-		if (this->Health > 0)
-		{
-			this->IsAlive = true;
-			this->IsDead = false;
-		}
-		else
-		{
-			this->IsAlive = false;
-			this->IsDead = true;
-		}
-
+		if (this->Health > 0) { this->IsAlive = true; this->IsDead = false; }
+		else { this->IsAlive = false; this->IsDead = true;}
+		
 		if (this->Health <= 15) this->IsAboutToDie == true;
 		else this->IsAboutToDie == false;
 	}

@@ -77,77 +77,26 @@ public:
 
 		// Player States and Misc's
 
-		// IsCrouching
-		if (this->Flag == CROUCHING)
-		{
-			this->IsCrouched = true;
-		}
-		else
-		{
-			this->IsCrouched = false;
-		}
+		if (this->Flag == CROUCHING) this->IsCrouched = true;
+		else this->IsCrouched = false;
 
-		// IsStanding
-		if (this->Flag == STANDING)
-		{
-			this->IsStanding = true;
-		}
-		else
-		{
-			this->IsStanding = false;
-		}
+		if (this->Flag == STANDING) this->IsStanding = true;
+		else this->IsStanding = false;
 
-		// IsInair
-		if (this->Flag == INAIR)
-		{
-			this->IsInAir = true;
-		}
-		else
-		{
-			this->IsInAir = false;
-		}
+		if (this->Flag == INAIR)this->IsInAir = true;
+		else this->IsInAir = false;
 
-		// IsNoClipACtive
-		if (this->Flag == ISNOCLIP)
-		{
-			this->IsNoCliped = true;
-		}
-		else
-		{
-			this->IsNoCliped = false;
-		}
+		if (this->Flag == ISNOCLIP) this->IsNoCliped = true;
+		else this->IsNoCliped = false;
 
-		// IsFiring 
-		if (this->IsShotsFired > 0)
-		{
-			this->IsFiring = true;
-		}
-		else
-		{
-			this->IsFiring = false;
-		}
+		if (this->IsShotsFired > 0) this->IsFiring = true;
+		else this->IsFiring = false;
 
-		// Is Alive
-		if (this->Health > 0)
-		{
-			this->IsAlive = true;
-			this->IsDead = false;
-		}
-		else
-		{
-			this->IsAlive = false;
-			this->IsDead = true;
-		}
-
-		// Is About to Die
-		if (this->Health <= 15)
-		{
-			this->IsAboutToDie == TRUE;
-		}
-		else
-		{
-			this->IsAboutToDie == FALSE;
-		}
+		if (this->Health > 0) { this->IsAlive = true; this->IsDead = false; }
+		else { this->IsAlive = false; this->IsDead = true;}
+		
+		if (this->Health <= 15) this->IsAboutToDie == true;
+		else this->IsAboutToDie == false;
 	}
 
 }; inline LocalPlayer localplayer;
