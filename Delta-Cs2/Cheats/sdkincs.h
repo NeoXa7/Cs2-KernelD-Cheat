@@ -1,0 +1,14 @@
+#pragma once
+#include <Globals/Globals.h>
+#include <Cheats/Data.h>
+#include <Utils/Draw.h>
+#include <Utils/Automation.h>
+#include <SDK/CBone.h>
+#include <SDK/CC4.h>
+#include <SDK/CPlayer.h>
+#include <SDK/CEntity.h>
+#include <SDK/CGame.h>
+#include <SDK/CGameConstants.h>
+#include <SDK/CGameObjectTypes.h>
+#include <SDK/Maths/CView.h>
+#include <SDK/Maths/CAngle.h>
