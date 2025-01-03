@@ -1,2 +1,0 @@
-#include <Menu/Resources.h>
-
