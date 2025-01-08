@@ -12,9 +12,9 @@ class CEntities
 {
 public:
 	CHAR		Names[128] = { 0 };
-	INT			Team;
-	INT			Health;
-	INT			Armor;
+	INT		Team;
+	INT		Health;
+	INT		Armor;
 	UINTPTR		BoneMatrix;
 
 	UINT32		Ping;
