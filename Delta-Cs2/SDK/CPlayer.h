@@ -40,9 +40,9 @@ public:
 	bool		IsAlive;
 	bool		IsDead;
 	bool		IsAboutToDie;
-	bool        IsIdle;
+	bool        	IsIdle;
 
-	inline VOID	READ(uintptr_t Client)
+	inline VOID READ(uintptr_t Client)
 	{
 		UINTPTR SENSITIVITY_PTR = Driver::RPM<UINTPTR>(Client + Offsets::dwSensitivity);
 		if (SENSITIVITY_PTR) {
