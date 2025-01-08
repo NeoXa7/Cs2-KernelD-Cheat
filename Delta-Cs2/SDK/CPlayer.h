@@ -14,9 +14,9 @@ public:
 	UINTPTR		Controller;
 
 	CHAR		Name[128] = { 0 };
-	INT			Team;
-	INT			Health;
-	INT			Armor;
+	INT		Team;
+	INT		Health;
+	INT		Armor;
 
 	UINT32		Ping;
 	UINT32		IsShotsFired;
