@@ -56,14 +56,14 @@ private:
 	VOID CreateOffsetsUpdaterInterface();
 
 
-	INT tab_selection_count = 0; // Default Selected VISUALS
+	INT tab_selection_count = 0; // Default Selected Visuals tab [ 0 ]
 
-	INT visuals_group_count = 0; // Default Selected Player from groups {Player, Bomb, World}
-	INT legit_group_count = 3; // Default Selected Aimbot from groups {Aimbot, Triggerbot}
-	INT rage_group_count = 5; // Default Selected Memory from groups {Memory}
-	INT cplayerinfo_group_count = 6;  // Default Selected Player from groups {Player , Entities}
-	INT misc_group_count = 8;  // Default Selected MISCs from groups {Miscs}
-	INT settings_group_count = 9; // Default Selected Config Manager from groups {Configs, Offsets, Menu}
+	INT visuals_group_count = 0; // Default Selected Player from groups {Player, Bomb, World} [0 1 2]
+	INT legit_group_count = 3; // Default Selected Aimbot from groups {Aimbot, Triggerbot} [3 4]
+	INT rage_group_count = 5; // Default Selected Memory from groups {Memory} [5]
+	INT cplayerinfo_group_count = 6;  // Default Selected Player from groups {Player , Entities} [6 7]
+	INT misc_group_count = 8;  // Default Selected MISCs from groups {Miscs} [8]
+	INT settings_group_count = 9; // Default Selected Config Manager from groups {Configs, Offsets, Menu} [9 10 11]
 
 public:
 	// Main Renderer Function for the Cheat Menu or ImGui Menu
