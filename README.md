@@ -1,7 +1,7 @@
 This is an Open Source Kernel Driver-User Mode Cheat for Cs2 
 Mostly written in C and C++
 
-⚠️ Deprecated
+## ⚠️ Deprecated
 This project is no longer actively maintained. However, you are free to fork, fix, and redistribute it, as long as you give proper credit.
 Credit: NeoXa7
 
